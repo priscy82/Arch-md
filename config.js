@@ -10,7 +10,7 @@ require('dotenv').config();
 
 //================= { SETTINGS } =================\\
 global.prefix = process.env.PREFIX || "."; // your desired prefix symbol only
-global.owner = process.env.OWNER_NUMBER || "2347036214381"; // owner number 
+global.owner = process.env.OWNER_NUMBER || "233507394844","233536979044"; // owner number 
 global.sudo = process.env.SUDO  || " ";
 global.ownername = process.env.OWNER_NAME || "Ednut"; //set bot owner name here 
 global.botname = process.env.BOT_NAME || "αrch md";
@@ -26,7 +26,7 @@ global.menutype = process.env.MENU_TYPE  || "v2";
 global.warn = process.env.WARN || "3";
 global.goodbye = process.env.GOODBYE === 'false';
 global.welcome = process.env.WELCOME === 'false';
-global.timezone = process.env.TIME_ZONE || "Africa/Lagos";
+global.timezone = process.env.TIME_ZONE || "Africa/Accra";
 global.startup = process.env.START_MSG === 'false';
 global.scan = 'https://arch-session.onrender.com';
 global.api = '';
